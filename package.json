@@ -25,8 +25,7 @@
   },
   "scripts": {
     "heroku-prebuild": "npm install",
-    "start": "react-scripts start",
-    "heroku-postbuild": "cd src/server && node index.js",
+    "start": "react-scripts start && node srr/server/index.js && fg",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
