@@ -6,7 +6,7 @@ const app = express();
 dotenv.config();
 
 const PORT = process.env.PORT;
-const PORT1 = process.env.PORT1;
+
 
 
 const server = require("http").createServer(app);
@@ -45,6 +45,6 @@ io.on('connection', (socket) => {
 //     }
 //   });
 
-server.listen(PORT1, function () {
-  console.log(`listening on ${PORT1}`);
+server.listen(3001, function () {
+  console.log(`SOCKET-IO RUNNING... GO CATCH IT`);
 });
