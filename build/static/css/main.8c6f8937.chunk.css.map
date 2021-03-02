@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/index.css"],"names":[],"mappings":"AAAA,KACI,wBAAyB,CAC7B,2DACA","file":"main.8c6f8937.chunk.css","sourcesContent":["body {\n    background-color: #00b7ff;\nbackground-image: url(\"./images/questboard.jpg\")\n}"]}
